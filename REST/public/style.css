@@ -1,0 +1,25 @@
+h1{
+    color: maroon;
+}
+h3{
+    font-style: italic;
+}
+.posts{
+    background-color: antiquewhite;
+    padding-left: 20px;
+    width: 40rem;
+}
+.user{
+    color: red;
+    
+    padding: 2px;
+}
+.content{
+    color: blue;
+}
+.id{
+    padding-top:4px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: coral;
+}

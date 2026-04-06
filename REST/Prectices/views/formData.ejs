@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posts</title>
+    <link rel="stylesheet" href="/form.css">
+</head>
+<body>
+    <div>
+        <h2>Form Data</h2>
+        <a href="http://localhost:2020/form">Add_Data</a>
+    </div>
+    <div class="formData"> 
+        <%for(datas of data) {%>
+            <div class="data" >
+                <h3>Name:  <%=datas.name%></h3>
+                <p>PhoneNumber-  <%=datas.phoneNumber %></p>
+                <p>village-  <%=datas.village%></p>
+                <p>District- <%=datas.district%></p>
+                <p>Pincode-  <%=datas.pinCode%></p>
+                <p>State-  <%=datas.state%></p>
+                <a href="http://localhost:2020/data/<%=datas.id%>/edit" class="edit">Edit🖋️</a>
+                <form method="post" action="/data/<%=datas.id%>?_method=DELETE">
+                    <button>Delet</button>
+                </form>
+            </div>
+        <%}%>
+    </div>
+</body>
+</html>

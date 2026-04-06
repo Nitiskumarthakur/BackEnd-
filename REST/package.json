@@ -1,0 +1,21 @@
+{
+  "name": "rest",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "nitish",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "ejs": "^5.0.1",
+    "express": "^5.2.1",
+    "install": "^0.13.0",
+    "method-override": "^3.0.0",
+    "nodemon": "^3.1.14",
+    "npm": "^11.12.1",
+    "uuid": "^13.0.0"
+  }
+}

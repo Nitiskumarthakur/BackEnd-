@@ -1,0 +1,32 @@
+ 
+h4{
+    margin-left: 10px;
+    color: blue;
+}
+input{
+    margin:4px;
+    height: 30px;
+    width: 180px;
+   
+}
+input:focus {
+  outline: none;
+}
+textarea{
+    margin:4px;
+    height: 100px;
+    width: 220px;
+
+}
+textarea:focus{
+    outline: none;
+}
+.submitBtn{
+    height: 30px;
+    width: 100px;
+    color:white;
+    background: green;
+    margin-left: 4.5rem;
+    border: none;
+    border-radius: 5px;
+}

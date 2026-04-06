@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/form.css">
+</head>
+<body>
+    <div class="form">
+        <a href="http://localhost:2020/data">back</a>
+        <h2>Edit your data</h2>
+        <form method="post"  action="http://localhost:2020/data" >
+            <label for="name">Name </label>
+            <input type="text" name="name" placeholder="Enter name" id="name" required> <br><br>
+            <label for="number">Number </label>
+            <input type="number" name="phoneNumber" placeholder="Enter Number" id="number" required><br><br>
+            <label for="vill">Village </label>
+            <input type="text" name="village" placeholder="Village Name" id="vill" required><br><br>
+            <label for="dis">District </label>
+            <input type="text" name="district" placeholder="District Name" id="dis" required><br><br>
+            <label for="pin">Pincode </label>
+            <input type="number" name="pinCode" placeholder="PinCode" id="pin" required><br><br>
+            <label for="state">State </label>
+            <input type="text" name="state" placeholder="state Name" id="state" required><br><br>
+            <button>submit</button>
+        </form>
+    </div>
+</body>
+</html>
