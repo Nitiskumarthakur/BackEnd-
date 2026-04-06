@@ -1,0 +1,17 @@
+{
+  "name": "node-ejs",
+  "version": "1.0.0",
+  "description": "Learning of Embedded javaScript.",
+  "license": "ISC",
+  "author": "nitish",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "ejs": "^5.0.1",
+    "express": "^5.2.1",
+    "nodemon": "^3.1.14"
+  }
+}

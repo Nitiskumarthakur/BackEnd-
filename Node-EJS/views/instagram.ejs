@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>HomePage</title>
+    </head>
+    <body>
+        <h1>Instagram home page</h1>
+        <h2>Welcome to @<%= username %> </h2>
+
+        <!-- Loo in EJS -->
+        <h3> Account that have flowers! </h3>
+        <ul>
+            <% for(user of flowers) {%>
+              <li> <%= user %> </li>
+            <% } %>
+        </ul>
+    </body>
+</html>
