@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin:0px;
+    padding: 0px;
+}
+table {
+    border-collapse: collapse;
+    text-align: center;
+    
+}
+th{
+    color: red;
+}
+table, th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+/* table{
+    border: 1px solid black;
+    text-align: center;
+    border-right: none;
+}
+tr th{
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 10px;
+    color: orange;
+}
+td{
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+} */

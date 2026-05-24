@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>edit_route</title>
+</head>
+<body>
+    <h2>You are about to edit this user! </h2>
+    <p><%=results[0].id %></p>
+    <p><%=results[0].username %></p> 
+    <p><%=results[0].email %></p>
+    <form method="post" action="/users/<%=results[0].id%>?_method=PATCH">
+        
+        <label for="id">  Id: </label>
+        <input type="text" name="id" value="<%=results[0].id %>"> <br>
+        <label for="username">  username: </label>
+        <input type="text" name="username" value="<%=results[0].username %>"><br>
+        <label for="email"> Email: </label>
+        <input type="text" name="email" value="<%=results[0].email %>"><br>
+        <label for="pass "> Enter you Password : </label>
+        <input type="text" id="pass" name="password"><br>
+        <button>submit</button>
+        
+    </form>
+</body>
+</html>
