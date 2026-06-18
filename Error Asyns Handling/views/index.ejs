@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h4>Welcome to our FakeData!</h4>
+    <form method="get" action="/fakedata/post">
+       <button>Post</button>
+    </form>
+    <div style="display: grid; grid-template-columns: repeat(3, 1fr); margin:2px 40px">
+        <% for(let data of fakedata){ %>
+            <div style="border: 1px solid blue;">
+                <p><%= data.title%></p>
+                <p><%= data.message%></p>
+                <form method="get" action="fakedata/show/<%=data._id%>">
+                    <button>show</button>
+                </form>
+            </div>
+        <%}%>
+    </div>
+</body>
+</html>
+
+
+
