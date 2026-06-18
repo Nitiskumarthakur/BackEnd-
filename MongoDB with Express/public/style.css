@@ -1,0 +1,41 @@
+body{
+    margin-left: 20px;
+}
+ 
+h2{
+    text-align: center;
+    font-weight: 300;
+    color: green;
+}
+.container{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+}
+.chat{
+    background-color: aliceblue;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 3px;
+    display: inline-block;
+}
+.msg{
+    background-color: rgb(50, 50, 223);
+    color: white;
+    margin: 0px 10px 0px 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+.form_DE{
+    display: flex;
+    gap: 10px;
+}
+.form_DE button{
+    border: solid blue 1px;
+    color:black;
+    background-color: rgb(189, 237, 237);
+}
+.chat_date{
+    display: flex;
+    gap: 10px;
+    color:cornflowerblue;
+}

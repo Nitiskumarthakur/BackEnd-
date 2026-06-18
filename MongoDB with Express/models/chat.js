@@ -15,7 +15,10 @@ const chatSchema = mongoose.Schema({
     },
     create_at:{
         type:Date
-    }
+    },
+    updated_at:{
+        type:Date
+    },
 });
 
 const Chat = mongoose.model("Chat", chatSchema);

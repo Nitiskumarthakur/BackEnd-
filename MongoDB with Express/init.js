@@ -1,3 +1,5 @@
+//initialization the data in Database that name "Whatapp";
+
 const mongoose = require("mongoose");
 const Chat = require("./models/chat.js");
 
